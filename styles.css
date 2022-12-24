@@ -31,11 +31,15 @@
 .navbar-toggler-icon {
     color: white;
 }
+/* Main_Page */
 
+#main_page{
+    background-color: #151A28;
+}
 /* Forms */
 
 .form-register{
-    width: 400px;
+    width: 80%;
     background: #24303c;
     padding: 30px;
     margin:auto;
@@ -44,7 +48,7 @@
     font-family: 'Source Sans Pro';
     font-weight: bold;
     color: white;
-    box-shadow: 7px 13px 37px #00FFFF;
+    box-shadow: 7px 13px 37px #000;
 }
 
 .form-register h4{
@@ -63,4 +67,19 @@
     border-radius : 4px;
     margin-bottom: 16px;
     border: 1px solid #1f53c5;
+    color: white;
 }
+
+/* table */
+
+.styled-table {
+   
+    margin: auto;
+    margin-top:100px;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    width: 80%;
+    background-color: white;
+    
+}
+
