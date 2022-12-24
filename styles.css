@@ -6,19 +6,23 @@
 }
 
 .navbar {
-    background-color: #151A29;
+    background-color: #D6CDA4;
 
 }
 
 .navbar-brand {
 
-    color: white;
+    
     font-family: "Source Sans Pro";
     font-weight: bold;
     letter-spacing: 3px;
     font-size: 3.5rem;
-
 }
+
+.navbar-light .navbar-brand {
+    color: #1C6758;
+}
+
 
 .nav-item {
     font-family: "Source Sans Pro";
@@ -34,20 +38,21 @@
 /* Main_Page */
 
 #main_page{
-    background-color: #151A28;
+    background-color: #3D8361;
+    padding-bottom: 500px;
 }
 /* Forms */
 
 .form-register{
     width: 80%;
-    background: #24303c;
+    background: #D6CDA4;
     padding: 30px;
     margin:auto;
     margin-top:100px;
-    border-radius:4px;
+    border-radius:10px;
     font-family: 'Source Sans Pro';
-    font-weight: bold;
-    color: white;
+    font-size: 1.5em;
+    color: #1C6758;
     box-shadow: 7px 13px 37px #000;
 }
 
@@ -62,24 +67,41 @@
 }
 .controls{
     width: 100%;
-    background: #24303c;
+    background: #EEF2E6;
     padding: 10px;
     border-radius : 4px;
     margin-bottom: 16px;
-    border: 1px solid #1f53c5;
-    color: white;
+    border: 1px solid #1C6758;
+    color: black;
 }
 
 /* table */
 
-.styled-table {
-   
-    margin: auto;
-    margin-top:100px;
-    font-size: 0.9em;
-    font-family: sans-serif;
-    width: 80%;
-    background-color: white;
+.content-table{
     
+    margin: auto;
+    margin-top: 100px;
+    font-size: 1.5em;
+    width: 80%;
+    border-collapse: collapse;
+    border-radius: 20px 20px 0 0  ;
+    overflow:hidden;
+}
+.content-table thead th{
+    background-color: #EEF2E6;
+    color: #1C6758;
+    text-align: left;
+    font-weight: 400;
+  
+}
+ 
+.content-table th, .content-table td{
+    padding: 12px,15px;
+    color: white;
+    border: 2px solid #EEF2E6;
+    
+}
+.content-table tbody tr:last-of-type{
+    border-bottom: 1px solid #24303c;
 }
 
